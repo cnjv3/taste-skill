@@ -272,7 +272,7 @@
   // Coordenadas en la imagen fuente: base del vapor sobre la superficie del café
   var STEAM_HERO = { w: 3320, h: 1940, x: 2060, y: 930, bw: 720, bh: 860 };
   var STEAM_HERO_MOBILE = { w: 1720, h: 1940, x: 460, y: 930, bw: 720, bh: 860 };
-  var STEAM_CUP = { w: 1720, h: 1520, x: 740, y: 770, bw: 760, bh: 760 };
+  var STEAM_CUP = { w: 2620, h: 1540, x: 1360, y: 770, bw: 760, bh: 760 };
 
   function makeSteam(canvas, img, spec, opts) {
     if (!motionOK || !canvas || !img || !window.CasaSteam) return null;
@@ -348,8 +348,9 @@
           .fromTo(pour, { scale: 1 }, { scale: 1.2, duration: 0.45 }, 0)
           .to(soft, { opacity: 0, duration: 0.16 }, 0.12)
           .to(pour, { scale: 1.5, transformOrigin: '59% 78%', duration: 0.27 }, 0.45)
-          .fromTo(cup, { opacity: 0, scale: 1.16, yPercent: isMobile ? -13 : 0 }, { opacity: 1, scale: 1.03, duration: 0.14, ease: 'power1.out' }, 0.7)
+          .fromTo(cup, { opacity: 0, scale: 1.16 }, { opacity: 1, scale: 1.03, duration: 0.14, ease: 'power1.out' }, 0.7)
           .to(cup, { scale: 1, duration: 0.16 }, 0.84)
+          .to(pour, { opacity: 0, duration: 0.08 }, 0.82)
           .to(veil, { opacity: 0.82, duration: 0.2 }, 0.76);
 
         return function () {
@@ -409,7 +410,9 @@
   }
 
   var cupImg = $('[data-layer="cup"] img');
-  var ritualSteam = makeSteam($('[data-steam="ritual"]'), cupImg, STEAM_CUP, { amount: 0, seed: 11.2 });
+  var ritualSteam = makeSteam($('[data-steam="ritual"]'), cupImg, function () {
+    return /hero-mobile/.test(cupImg.currentSrc) ? STEAM_HERO_MOBILE : STEAM_CUP;
+  }, { amount: 0, seed: 11.2 });
 
   initScenes(ritualSteam);
 })();

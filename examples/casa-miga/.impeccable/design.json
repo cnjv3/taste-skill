@@ -282,19 +282,19 @@
     "breakpoints": [
       {
         "name": "phone",
-        "value": "≤760px"
+        "value": "≤760px (dedicated hero crop)"
       },
       {
         "name": "tablet",
         "value": "761px"
       },
       {
-        "name": "desktop-nav",
-        "value": "1024px"
+        "name": "desktop",
+        "value": "1024px (overlay hero, full navigation)"
       },
       {
         "name": "wide-menu",
-        "value": "1200px"
+        "value": "1200px (three-column carta)"
       }
     ]
   },
@@ -387,7 +387,7 @@
       },
       {
         "name": "The Light Not Shadow Rule",
-        "body": "Separation is made with ground changes and hairlines; when an image needs legible text over it, it gets a veil of the ground colour, never a drop shadow on the text (the hero scroll cue on phone is the one soft text glow, over photography).",
+        "body": "Separation is made with ground changes and hairlines; when an image needs legible text over it, it gets a veil of the ground colour, never a drop shadow on the text (the one exception is a soft crema glow behind the hero's scroll cue where it sits on the photograph below 1024px).",
         "section": "elevation"
       }
     ],

@@ -223,14 +223,14 @@ A warm, low-saturation morning palette: limewash and linen neutrals, coffee brow
 
 A 90rem container with a fluid gutter (clamp(1.25rem, 4.2vw, 4.5rem)); desktop sections use a 12-column grid with a fluid column gap (clamp(1rem, 2.2vw, 2rem)) and asymmetric spans (6 + 5, 5 + 7, 7 + 4) rather than centred halves. Sections breathe with clamp(5rem, 3.5rem + 6.5vw, 10rem) of vertical padding and alternate crema and blanco cálido grounds, with one full-bleed café oscuro chapter in the middle.
 
-Mobile is composed, not shrunk: the hero stacks text over the photograph with the seal beside the buttons; the carta's tabs scroll sideways; the obrador's panoramic photo bleeds to the edges; the contact sheet becomes a staggered two-column grid; the ritual keeps its pinned scene with text set at the bottom.
+Below 1024px the hero is composed, not shrunk: text sits on the crema ground above the photograph, which fades in from the top, with the seal beside the buttons (phones get a dedicated square crop of the cup and croissant). From 1024px the photograph fills the viewport behind the text under crema veils from the left and top, and on screens narrower than 16:10 it shifts so the cup clears the text. Elsewhere on phones the carta's tabs scroll sideways; the obrador's panoramic photo bleeds to the edges; the contact sheet becomes a staggered two-column grid; the ritual keeps its pinned scene with text set at the bottom.
 
 ## Elevation & Depth
 
 Flat. There are no box shadows on content. Depth comes from photography (side light, shallow focus), from tinted veils over photographs (crema veils for light grounds, café oscuro veils for the ritual), and from the single hairline under the header once it turns solid.
 
 ### Named Rules
-**The Light Not Shadow Rule.** Separation is made with ground changes and hairlines; when an image needs legible text over it, it gets a veil of the ground colour, never a drop shadow on the text (the hero scroll cue on phone is the one soft text glow, over photography).
+**The Light Not Shadow Rule.** Separation is made with ground changes and hairlines; when an image needs legible text over it, it gets a veil of the ground colour, never a drop shadow on the text (the one exception is a soft crema glow behind the hero's scroll cue where it sits on the photograph below 1024px).
 
 ## Shapes
 

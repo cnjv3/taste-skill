@@ -44,7 +44,7 @@ assets/img/              fotografías en WebP en varios tamaños, y og.jpg para 
 | --- | --- |
 | `hero-*.webp`, `hero-mobile-*.webp` | Cappuccino en taza de cerámica moteada y croissant, mesa de piedra, luz de ventana desde la izquierda; la mitad izquierda del encuadre luminosa y despejada para el titular |
 | `ritual-*.webp`, `ritual-soft.webp` | Vertido de café en taza de cerámica, fondo oscuro desenfocado; panorámico con aire a la izquierda |
-| `cup-*.webp` | La taza terminada con arte latte, mismo set de luz que el hero |
+| `cup-*.webp` | La taza terminada con arte latte y el croissant, mismo set de luz que el hero, con aire a la izquierda para el texto (en el móvil el ritual reutiliza `hero-mobile-*`) |
 | `pour-580.webp` | Vertido cercano en vertical para la carta |
 | `dough-*.webp` | Manos espolvoreando harina sobre masa |
 | `loaves-*.webp` | Hogazas recién horneadas en el obrador |
@@ -54,7 +54,7 @@ assets/img/              fotografías en WebP en varios tamaños, y og.jpg para 
 | `croissant-thumb.webp`, `cinnamon-thumb.webp` | Producto de vitrina sobre fondo claro |
 | `og.jpg` | Imagen para compartir (1200 × 630) |
 
-Al sustituirlas, conserva los nombres o actualiza `index.html`. Si cambias el encuadre del hero o de la taza final, ajusta las coordenadas del vapor (`STEAM_HERO`, `STEAM_HERO_MOBILE`, `STEAM_CUP` en `main.js`), que marcan en píxeles de la imagen fuente dónde está la superficie del café. Retira también la etiqueta *Imagen ilustrativa del ambiente* y la línea *Prototipo de diseño* del pie.
+Junto a cada imagen hay un `.json` con su procedencia; actualízalo o bórralo al sustituirla. Al sustituirlas, conserva los nombres o actualiza `index.html`. Si cambias el encuadre del hero o de la taza final, ajusta las coordenadas del vapor (`STEAM_HERO`, `STEAM_HERO_MOBILE`, `STEAM_CUP` en `main.js`), que marcan en píxeles de la imagen fuente dónde está la superficie del café. Retira también la etiqueta *Imagen ilustrativa del ambiente* y la línea *Prototipo de diseño* del pie.
 
 **Textos legales.** `aviso-legal.html` y `privacidad.html` son plantillas con los apartados habituales (LSSI-CE y RGPD) y huecos para los datos del titular. Deben completarse y revisarse por un profesional.
 
