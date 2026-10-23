@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>CASA MIGA · Café de especialidad y panadería artesanal</title>
+  <meta name="description" content="Cafetería artesanal de inspiración mediterránea: café de especialidad, pan y bollería recién horneados, y tiempo para disfrutarlos sin prisa. Consulta la carta, el horario y cómo llegar.">
+  <meta name="theme-color" content="#F5F0E7">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="CASA MIGA">
+  <meta property="og:title" content="CASA MIGA · El placer de ir más despacio">
+  <meta property="og:description" content="Café de especialidad, pan recién horneado y pequeños momentos para disfrutar sin prisa.">
+  <meta property="og:image" content="assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preload" href="assets/fonts/cormorant-garamond-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="assets/img/hero-1600.webp" imagesrcset="assets/img/hero-1000.webp 1000w, assets/img/hero-1600.webp 1600w, assets/img/hero-2400.webp 2400w" imagesizes="100vw" media="(min-width: 761px)" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/img/hero-mobile-800.webp" imagesrcset="assets/img/hero-mobile-800.webp 800w, assets/img/hero-mobile-1200.webp 1200w" imagesizes="100vw" media="(max-width: 760px)" fetchpriority="high">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>
+    (function (d) {
+      d.classList.add('js');
+      if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      d.classList.add('motion', 'is-loading');
+      var go = function () { d.classList.remove('is-loading'); };
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(go);
+      setTimeout(go, 700);
+    })(document.documentElement);
+  </script>
+</head>
+<body>
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-arrow" viewBox="0 0 20 20"><path d="M3.5 10h12.5M11.5 5.5 16 10l-4.5 4.5"/></symbol>
+    <symbol id="i-arrow-out" viewBox="0 0 20 20"><path d="M6 14 14.5 5.5M7.5 5.5h7v7"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 20 20"><path d="M10 18s-5.5-5.2-5.5-9.3a5.5 5.5 0 0 1 11 0C15.5 12.8 10 18 10 18Z"/><circle cx="10" cy="8.6" r="2"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 20 20"><circle cx="10" cy="10" r="7.25"/><path d="M10 5.8V10l2.8 1.8"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 20 20"><path d="M6.3 3.2 8.2 3l1.2 3.4-1.6 1.2a8.6 8.6 0 0 0 4.6 4.6l1.2-1.6 3.4 1.2-.2 1.9a1.8 1.8 0 0 1-1.9 1.6A13 13 0 0 1 4.6 5.1a1.8 1.8 0 0 1 1.7-1.9Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 20 20"><rect x="2.75" y="4.75" width="14.5" height="10.5" rx="1.5"/><path d="m3.5 5.8 6.5 5 6.5-5"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 20 20"><rect x="3" y="3" width="14" height="14" rx="4"/><circle cx="10" cy="10" r="3.25"/><circle cx="14.2" cy="5.9" r=".6" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-sprig" viewBox="0 0 48 28" fill="currentColor"><path d="M6 25C15 21 25 15 41 4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M15 20.6c-1.6-4.3.2-8.3 4.3-10.2 1.3 4.2-.4 8.4-4.3 10.2Z"/><path d="M23.5 15.4c-.6-4.6 2-8.1 6.4-9.1.4 4.4-2.1 8-6.4 9.1Z"/><path d="M31.5 9.9c.3-4.1 3.3-7 7.5-7.3-.3 4.1-3.4 6.9-7.5 7.3Z"/><path d="M18.6 18.4c4.5-.8 8.4 1.1 9.8 5.1-4.4.9-8.4-1.2-9.8-5.1Z"/><path d="M27.3 12.8c4.4-1.2 8.4.4 10.2 4.2-4.3 1.3-8.5-.4-10.2-4.2Z"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header" data-header>
+    <div class="site-header__inner">
+      <a class="brand" href="#inicio" aria-label="CASA MIGA, volver al inicio">
+        <svg class="brand__mark" aria-hidden="true"><use href="#i-sprig"/></svg>
+        <span class="brand__word">Casa Miga</span>
+      </a>
+      <nav class="primary-nav" aria-label="Principal">
+        <ul>
+          <li><a href="#carta" data-nav="carta">La carta</a></li>
+          <li><a href="#nuestra-casa" data-nav="nuestra-casa">Nuestra casa</a></li>
+          <li><a href="#ritual" data-nav="ritual">El ritual</a></li>
+          <li><a href="#visitanos" data-nav="visitanos">Visítanos</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--outline btn--small header-cta" href="#visitanos" data-track="cta_header_visit">
+        Ven a vernos <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+      </a>
+      <button class="menu-toggle" type="button" aria-controls="menu" aria-expanded="false" data-menu-open>
+        <span class="menu-toggle__label">Menú</span>
+        <span class="menu-toggle__lines" aria-hidden="true"><span></span><span></span></span>
+      </button>
+    </div>
+  </header>
+
+  <dialog class="menu-panel" id="menu" aria-label="Menú de navegación">
+    <div class="menu-panel__top">
+      <span class="brand brand--static" aria-hidden="true">
+        <svg class="brand__mark"><use href="#i-sprig"/></svg>
+        <span class="brand__word">Casa Miga</span>
+      </span>
+      <button class="menu-close" type="button" data-menu-close>
+        <span>Cerrar</span>
+        <svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5l10 10M15 5 5 15"/></svg>
+      </button>
+    </div>
+    <nav aria-label="Principal (móvil)">
+      <ul class="menu-panel__links">
+        <li style="--i:0"><a href="#carta">La carta</a></li>
+        <li style="--i:1"><a href="#nuestra-casa">Nuestra casa</a></li>
+        <li style="--i:2"><a href="#ritual">El ritual</a></li>
+        <li style="--i:3"><a href="#visitanos">Visítanos</a></li>
+      </ul>
+    </nav>
+    <div class="menu-panel__foot">
+      <p class="menu-panel__line">El placer de ir más despacio.</p>
+      <a class="btn btn--primary" href="#visitanos" data-track="cta_menu_visit">Ven a vernos <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+  </dialog>
+
+  <main id="contenido">
+    <!-- 01 · Hero -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__media">
+        <picture>
+          <source media="(max-width: 760px)" srcset="assets/img/hero-mobile-800.webp 800w, assets/img/hero-mobile-1200.webp 1200w" sizes="100vw" width="1200" height="1353">
+          <img class="hero__img" src="assets/img/hero-1600.webp" srcset="assets/img/hero-1000.webp 1000w, assets/img/hero-1600.webp 1600w, assets/img/hero-2400.webp 2400w" sizes="100vw" width="2400" height="1405" fetchpriority="high" decoding="async" data-steam-host
+            alt="Cappuccino con arte latte en una taza de cerámica moteada, junto a un croissant dorado sobre una mesa de piedra, con la luz de la mañana entrando de lado.">
+        </picture>
+        <canvas class="steam" data-steam="hero" aria-hidden="true"></canvas>
+      </div>
+
+      <div class="hero__content">
+        <h1 class="hero__title" id="hero-title">
+          <span class="line"><span>El placer de </span></span>
+          <span class="line line--italic"><span>ir más despacio.</span></span>
+        </h1>
+        <p class="hero__lead">Café de especialidad, pan recién horneado y pequeños momentos para disfrutar sin prisa.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#carta" data-track="cta_hero_menu">Descubrir la carta <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn--outline" href="#nuestra-casa" data-track="cta_hero_house">Conocer nuestra casa</a>
+        </div>
+        <div class="seal hero__seal" aria-hidden="true">
+          <svg viewBox="0 0 120 120">
+            <defs><path id="seal-path" d="M60 60m-45 0a45 45 0 1 1 90 0a45 45 0 1 1-90 0"/></defs>
+            <circle cx="60" cy="60" r="56" class="seal__ring"/>
+            <text class="seal__text"><textPath href="#seal-path" startOffset="0" textLength="279" lengthAdjust="spacing">HECHO DESPACIO · SERVIDO CON CARIÑO · </textPath></text>
+            <use href="#i-sprig" x="38" y="46" width="44" height="26" class="seal__sprig"/>
+          </svg>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#filosofia">
+        <span class="scroll-cue__line" aria-hidden="true"></span>
+        <span class="scroll-cue__text">Desliza<br>para explorar</span>
+      </a>
+    </section>
+
+    <!-- 02 · Filosofía -->
+    <section class="philosophy section" id="filosofia" aria-labelledby="filosofia-title">
+      <div class="container philosophy__grid">
+        <div class="philosophy__copy">
+          <h2 class="display-l" id="filosofia-title" data-reveal="lines">
+            <span class="line"><span>Las cosas </span></span>
+            <span class="line"><span>buenas llevan </span></span>
+            <span class="line"><span>su tiempo.</span></span>
+          </h2>
+          <p class="body-l" data-reveal="fade">Creemos en el café preparado con cuidado, en el pan que necesita su tiempo y en esos pequeños momentos que hacen que un día cualquiera se sienta especial.</p>
+          <div class="note" data-reveal="draw">
+            <svg class="note__branch" viewBox="0 0 160 120" aria-hidden="true">
+              <path class="draw" pathLength="1" d="M18 108C48 86 82 58 140 14"/>
+              <path class="draw" pathLength="1" d="M44 89c-6-14-2-27 11-34 5 13 1 26-11 34Z"/>
+              <path class="draw" pathLength="1" d="M68 70c-3-15 4-27 18-31 3 14-4 26-18 31Z"/>
+              <path class="draw" pathLength="1" d="M94 49c0-14 9-24 23-25 0 14-9 24-23 25Z"/>
+              <path class="draw" pathLength="1" d="M53 81c14-5 27 0 33 13-14 5-27-1-33-13Z"/>
+              <path class="draw" pathLength="1" d="M79 61c14-4 27 1 32 14-14 4-27-1-32-14Z"/>
+              <path class="draw" pathLength="1" d="M105 39c13-5 26-1 32 11-13 5-26 1-32-11Z"/>
+            </svg>
+            <p class="note__text">Un lugar para disfrutar sin prisa.</p>
+          </div>
+        </div>
+        <figure class="philosophy__figure">
+          <div class="frame" data-reveal="image">
+            <img src="assets/img/dough-880.webp" srcset="assets/img/dough-600.webp 600w, assets/img/dough-880.webp 880w" sizes="(max-width: 760px) 92vw, 44vw" width="880" height="848" loading="lazy" decoding="async"
+              alt="Manos espolvoreando harina sobre una bola de masa en una mesa de obrador.">
+          </div>
+          <figcaption class="caption">Pequeños rituales, hechos con cariño.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 03 · La carta -->
+    <section class="menu section" id="carta" aria-labelledby="carta-title">
+      <div class="container">
+        <div class="menu__head">
+          <div>
+            <h2 class="display-l" id="carta-title" data-reveal="lines">
+              <span class="line"><span>Hecho para </span></span>
+              <span class="line"><span>disfrutarlo.</span></span>
+            </h2>
+            <p class="body-m menu__sub" data-reveal="fade">Una pequeña selección de nuestros favoritos.</p>
+          </div>
+          <div class="tabs" data-tabs hidden>
+            <div class="tabs__inner">
+            <div class="tabs__list" role="tablist" aria-label="Categorías de la carta">
+              <button class="tabs__tab" type="button" role="tab" id="tab-cafe" aria-controls="panel-cafe" aria-selected="true">Café</button>
+              <button class="tabs__tab" type="button" role="tab" id="tab-panaderia" aria-controls="panel-panaderia" aria-selected="false" tabindex="-1">Panadería</button>
+              <button class="tabs__tab" type="button" role="tab" id="tab-dulces" aria-controls="panel-dulces" aria-selected="false" tabindex="-1">Dulces</button>
+              <button class="tabs__tab" type="button" role="tab" id="tab-desayunos" aria-controls="panel-desayunos" aria-selected="false" tabindex="-1">Desayunos</button>
+            </div>
+            <div class="tabs__list tabs__list--active" aria-hidden="true" data-tabs-active>
+              <span class="tabs__tab">Café</span><span class="tabs__tab">Panadería</span><span class="tabs__tab">Dulces</span><span class="tabs__tab">Desayunos</span>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu__body">
+          <figure class="menu__figure" data-reveal="image">
+            <div class="frame">
+              <img src="assets/img/pour-580.webp" width="580" height="780" loading="lazy" decoding="async" sizes="(max-width: 760px) 92vw, 30vw"
+                alt="Un hilo de café cae en una taza de cerámica artesanal y forma una crema dorada.">
+            </div>
+          </figure>
+
+          <div class="menu__panels" data-panels>
+            <!-- Precios de ejemplo: edítalos aquí. El valor de data es el precio en euros con punto decimal. -->
+            <section class="menu__panel" id="panel-cafe" aria-labelledby="tab-cafe">
+              <h3 class="menu__cat">Café</h3>
+              <ul class="dishes">
+                <li class="dish"><p class="dish__row"><span class="dish__name">Espresso</span><span class="dish__leader" aria-hidden="true"></span><data class="dish__price" value="2.20">2,20 €</data></p><p class="dish__desc">Corto, intenso y aromático.</p></li>
+                <li class="dish"><p class="dish__row"><span class="dish__name">Americano</span><span class="dish__leader" aria-hidden="true"></span><data class="dish__price" value="2.50">2,50 €</data></p><p class="dish__desc">Espresso alargado con agua. Suave y equilibrado.</p></li>
+                <li class="dish"><p class="dish__row"><span class="dish__name">Cappuccino</span><span class="dish__leader" aria-hidden="true"></span><data class="dish__price" value="3.20">3,20 €</data></p><p class="dish__desc">Espresso, leche y una capa generosa de espuma.</p></li>
+                <li class="dish"><p class="dish__row"><span class="dish__name">Flat White</span><span class="dish__leader" aria-hidden="true"></span><data class="dish__price" value="3.40">3,40 €</data></p><p class="dish__desc">Doble de espresso con leche sedosa.</p></li>
+                <li class="dish"><p class="dish__row"><span class="dish__name">Latte</span><span class="dish__leader" aria-hidden="true"></span><data class="dish__price" value="3.50">3,50 €</data></p><p class="dish__desc">Más leche, más calma.</p></li>
+                <li class="dish"><p class="dish__row"><span class="dish__name">Café de filtro</span><span class="dish__leader" aria-hidden="true"></span><data class="dish__price" value="3.80">3,80 €</data></p><p class="dish__desc">Preparado por goteo. Limpio y delicado.</p></li>
+              </ul>
+            </section>
+            <section class="menu__panel" id="panel-panaderia" aria-labelledby="tab-panaderia">
+              <h3 class="menu__cat">Panadería</h3>
+              <ul class="dishes">
+                <li class="dish"><p class="dish__row"><span class="dish__name">Croissant de mantequilla</span><span class="dish__leader" aria-hidden="true"></span><data class="dish__price" value="2.80">2,80 €</data></p><p class="dish__desc">Hojaldre dorado, capa a capa.</p></li>
+                <li class="dish"><p class="dish__row"><span class="dish__name">Pain au chocolat</span><span class="dish__leader" aria-hidden="true"></span><data class="dish__price" value="3.20">3,20 €</data></p><p class="dish__desc">Hojaldre y chocolate.</p></li>
+                <li class="dish"><p class="dish__row"><span class="dish__name">Roll de canela</span><span class="dish__leader" aria-hidden="true"></span><data class="dish__price" value="3.50">3,50 €</data></p><p class="dish__desc">Una espiral de canela, tierna por dentro.</p></li>
+                <li class="dish"><p class="dish__row"><span class="dish__name">Focaccia artesanal</span><span class="dish__leader" aria-hidden="true"></span><data class="dish__price" value="4.50">4,50 €</data></p><p class="dish__desc">Miga alveolada y corteza crujiente.</p></li>
+              </ul>
+            </section>
+            <section class="menu__panel" id="panel-dulces" aria-labelledby="tab-dulces">
+              <h3 class="menu__cat">Dulces</h3>
+              <ul class="dishes">
+                <li class="dish"><p class="dish__row"><span class="dish__name">Tarta de temporada</span><span class="dish__leader" aria-hidden="true"></span><data class="dish__price" value="4.80">4,80 €</data></p><p class="dish__desc">Cambia con la temporada. Pregunta en barra.</p></li>
+                <li class="dish"><p class="dish__row"><span class="dish__name">Bizcocho de limón</span><span class="dish__leader" aria-hidden="true"></span><data class="dish__price" value="3.80">3,80 €</data></p><p class="dish__desc">Esponjoso, con un punto cítrico.</p></li>
+                <li class="dish"><p class="dish__row"><span class="dish__name">Cookie de chocolate</span><span class="dish__leader" aria-hidden="true"></span><data class="dish__price" value="3.20">3,20 €</data></p><p class="dish__desc">Crujiente por fuera, tierna por dentro.</p></li>
+              </ul>
+            </section>
+            <section class="menu__panel" id="panel-desayunos" aria-labelledby="tab-desayunos">
+              <h3 class="menu__cat">Desayunos</h3>
+              <ul class="dishes">
+                <li class="dish"><p class="dish__row"><span class="dish__name">Tostada de masa madre con tomate</span><span class="dish__leader" aria-hidden="true"></span><data class="dish__price" value="5.50">5,50 €</data></p><p class="dish__desc">Pan tostado y tomate. Lo sencillo, bien hecho.</p></li>
+                <li class="dish"><p class="dish__row"><span class="dish__name">Yogur con fruta de temporada y granola</span><span class="dish__leader" aria-hidden="true"></span><data class="dish__price" value="6.50">6,50 €</data></p><p class="dish__desc">Fresco y ligero.</p></li>
+                <li class="dish"><p class="dish__row"><span class="dish__name">Tostada de aguacate</span><span class="dish__leader" aria-hidden="true"></span><data class="dish__price" value="7.50">7,50 €</data></p><p class="dish__desc">Aguacate sobre pan tostado.</p></li>
+              </ul>
+            </section>
+            <p class="menu__note"><span class="tag">Ejemplo</span> Carta y precios de muestra, pendientes de confirmar. Pregunta por los alérgenos al personal.</p>
+          </div>
+
+          <aside class="menu__aside" aria-label="De la vitrina">
+            <figure class="vitrine" data-reveal="fade">
+              <img src="assets/img/croissant-thumb.webp" width="404" height="316" loading="lazy" decoding="async" alt="Croissant de mantequilla con el hojaldre bien marcado.">
+              <figcaption><span class="vitrine__name">Croissant de mantequilla</span><data value="2.80">2,80 €</data></figcaption>
+            </figure>
+            <figure class="vitrine" data-reveal="fade">
+              <img src="assets/img/cinnamon-thumb.webp" width="404" height="264" loading="lazy" decoding="async" alt="Roll de canela en espiral, glaseado y dorado.">
+              <figcaption><span class="vitrine__name">Roll de canela</span><data value="3.50">3,50 €</data></figcaption>
+            </figure>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 · El ritual -->
+    <section class="ritual" id="ritual" aria-labelledby="ritual-title" data-ritual>
+      <div class="ritual__stage">
+        <div class="ritual__layers" aria-hidden="true">
+          <div class="ritual__layer ritual__layer--pour" data-layer="pour">
+            <img src="assets/img/ritual-1600.webp" srcset="assets/img/ritual-1000.webp 1000w, assets/img/ritual-1600.webp 1600w, assets/img/ritual-2400.webp 2400w" sizes="(max-width: 760px) 300vw, 160vw" width="2400" height="787" loading="lazy" decoding="async" alt="">
+          </div>
+          <div class="ritual__layer ritual__layer--soft" data-layer="soft">
+            <img src="assets/img/ritual-soft.webp" width="1000" height="328" loading="lazy" decoding="async" alt="">
+          </div>
+          <div class="ritual__layer ritual__layer--cup" data-layer="cup">
+            <img src="assets/img/cup-1600.webp" srcset="assets/img/cup-1000.webp 1000w, assets/img/cup-1600.webp 1600w" sizes="100vw" width="1600" height="1414" loading="lazy" decoding="async" alt="">
+            <canvas class="steam steam--ritual" data-steam="ritual"></canvas>
+          </div>
+          <div class="ritual__veil"></div>
+        </div>
+
+        <div class="ritual__content container">
+          <h2 class="ritual__title" id="ritual-title" data-reveal="lines">
+            <span class="line"><span>Un momento </span></span>
+            <span class="line line--italic"><span>solo para ti.</span></span>
+          </h2>
+          <p class="ritual__lead" data-reveal="fade">Desde el primer aroma hasta el último sorbo, cada taza es un pequeño ritual.</p>
+          <ol class="steps" data-steps>
+            <li class="step is-active"><span class="step__num">01</span><span class="step__body"><span class="step__title">Elegir el café</span><span class="step__text">Todo empieza por saber qué te apetece hoy.</span></span></li>
+            <li class="step"><span class="step__num">02</span><span class="step__body"><span class="step__title">Prepararlo con cuidado</span><span class="step__text">La medida justa, el tiempo justo.</span></span></li>
+            <li class="step"><span class="step__num">03</span><span class="step__body"><span class="step__title">Servirlo</span><span class="step__text">Directo a la mesa, todavía humeante.</span></span></li>
+            <li class="step"><span class="step__num">04</span><span class="step__body"><span class="step__title">Disfrutarlo sin prisa</span><span class="step__text">El día sabe mejor cuando empieza sin prisa.</span></span></li>
+          </ol>
+        </div>
+        <div class="ritual__progress" aria-hidden="true"><span data-progress></span></div>
+      </div>
+    </section>
+
+    <!-- 05 · El obrador -->
+    <section class="bakery section" id="obrador" aria-labelledby="obrador-title">
+      <div class="container">
+        <div class="bakery__intro">
+          <div class="bakery__copy">
+            <h2 class="display-l" id="obrador-title" data-reveal="lines">
+              <span class="line"><span>Cada mañana, </span></span>
+              <span class="line"><span>algo recién hecho.</span></span>
+            </h2>
+            <p class="body-l" data-reveal="fade">Panadería artesanal, masa madre y bollería de fermentación lenta. El resultado se nota en cada bocado.</p>
+          </div>
+          <div class="frame bakery__loaves" data-reveal="image">
+            <img src="assets/img/loaves-1600.webp" srcset="assets/img/loaves-1000.webp 1000w, assets/img/loaves-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 60vw" width="1600" height="490" loading="lazy" decoding="async"
+              alt="Hogazas de masa madre recién horneadas sobre la mesa del obrador, con un panadero detrás.">
+          </div>
+        </div>
+
+        <div class="macro" data-macro>
+          <div class="macro__frame">
+            <img class="macro__img" src="assets/img/croissant-macro.webp" width="1000" height="900" loading="lazy" decoding="async"
+              alt="Primer plano de un croissant: las capas de hojaldre brillan con la luz lateral.">
+            <span class="macro__light" aria-hidden="true"></span>
+          </div>
+          <div class="macro__copy">
+            <h3 class="macro__title">Capa a capa.</h3>
+            <p class="macro__name">Croissant de mantequilla · <data value="2.80">2,80 €</data></p>
+            <p class="body-m">Masa, mantequilla y paciencia. Se pliega, reposa y se vuelve a plegar, y el horno hace el resto. Lo bonito de un croissant está en lo que no se ve con prisa.</p>
+          </div>
+        </div>
+
+        <ul class="contact-sheet" aria-label="Escenas del obrador">
+          <li class="sheet sheet--a" data-reveal="image"><figure><div class="frame"><img src="assets/img/strip-hands.webp" width="592" height="276" loading="lazy" decoding="async" alt="Manos dando forma a la masa sobre la mesa enharinada."></div><figcaption>Masa</figcaption></figure></li>
+          <li class="sheet sheet--b" data-reveal="image"><figure><div class="frame"><img src="assets/img/strip-croissants.webp" width="768" height="276" loading="lazy" decoding="async" alt="Croissants recién horneados sobre papel de horno."></div><figcaption>Hojaldre</figcaption></figure></li>
+          <li class="sheet sheet--c" data-reveal="image"><figure><div class="frame"><img src="assets/img/strip-bread.webp" width="584" height="276" loading="lazy" decoding="async" alt="Panes de corteza oscura y greñas abiertas."></div><figcaption>Horno</figcaption></figure></li>
+          <li class="sheet sheet--d" data-reveal="image"><figure><div class="frame"><img src="assets/img/strip-crumb.webp" width="476" height="276" loading="lazy" decoding="async" alt="Corte de pan de masa madre con miga abierta y alveolada."></div><figcaption>Miga</figcaption></figure></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 06 · Nuestra casa -->
+    <section class="house section" id="nuestra-casa" aria-labelledby="casa-title">
+      <div class="container">
+        <div class="house__head">
+          <h2 class="display-l" id="casa-title" data-reveal="lines">
+            <span class="line"><span>Un rincón al que </span></span>
+            <span class="line"><span>siempre apetece volver.</span></span>
+          </h2>
+          <p class="body-l" data-reveal="fade">Un lugar para encontrarse, hacer una pausa o disfrutar de un rato contigo.</p>
+        </div>
+      </div>
+      <figure class="house__figure" data-reveal="image">
+        <div class="frame house__frame">
+          <img class="house__img" src="assets/img/interior-1500.webp" srcset="assets/img/interior-1000.webp 1000w, assets/img/interior-1500.webp 1500w" sizes="(max-width: 760px) 100vw, 86vw" width="1500" height="645" loading="lazy" decoding="async" data-parallax
+            alt="Sala luminosa con mesas y sillas de madera, olivos en maceta y un gran ventanal en arco.">
+        </div>
+        <figcaption class="caption caption--inset">Imagen ilustrativa del ambiente</figcaption>
+      </figure>
+      <div class="container">
+        <ul class="qualities">
+          <li data-reveal="fade"><span class="qualities__title">Buen café</span><span class="qualities__text">Sin prisa</span></li>
+          <li data-reveal="fade"><span class="qualities__title">Pan artesanal</span><span class="qualities__text">Con calma</span></li>
+          <li data-reveal="fade"><span class="qualities__title">Espacio acogedor</span><span class="qualities__text">Para quedarse</span></li>
+        </ul>
+        <p class="interlude" data-reveal="fade">Un buen café. Algo recién horneado.<br><em>Y tiempo para disfrutarlo.</em></p>
+      </div>
+    </section>
+
+    <!-- 07 · Visítanos -->
+    <section class="visit section" id="visitanos" aria-labelledby="visit-title">
+      <div class="container visit__grid">
+        <div class="visit__intro">
+          <h2 class="display-l" id="visit-title" data-reveal="lines">
+            <span class="line"><span>Tu próxima </span></span>
+            <span class="line"><span>pausa te espera.</span></span>
+          </h2>
+          <p class="body-l" data-reveal="fade">Ven a por un café y quédate el rato que te apetezca.</p>
+          <div class="visit__cta" data-reveal="fade">
+            <a class="btn btn--primary" data-maps data-track="cta_directions" aria-disabled="true" role="link">Cómo llegar <svg class="icon" aria-hidden="true"><use href="#i-arrow-out"/></svg></a>
+            <p class="visit__hint" data-maps-hint>Enlace disponible cuando se configure la ubicación.</p>
+          </div>
+          <svg class="visit__branch" viewBox="0 0 160 120" aria-hidden="true">
+            <path d="M18 108C48 86 82 58 140 14"/>
+            <path d="M44 89c-6-14-2-27 11-34 5 13 1 26-11 34Z"/>
+            <path d="M68 70c-3-15 4-27 18-31 3 14-4 26-18 31Z"/>
+            <path d="M94 49c0-14 9-24 23-25 0 14-9 24-23 25Z"/>
+            <path d="M53 81c14-5 27 0 33 13-14 5-27-1-33-13Z"/>
+            <path d="M79 61c14-4 27 1 32 14-14 4-27-1-32-14Z"/>
+            <path d="M105 39c13-5 26-1 32 11-13 5-26 1-32-11Z"/>
+          </svg>
+        </div>
+
+        <dl class="info" data-reveal="fade">
+          <div class="info__item">
+            <dt><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Dirección</dt>
+            <dd data-field="address"><span class="placeholder">Calle Ejemplo 123, Tu Ciudad</span> <span class="tag">Ejemplo</span></dd>
+          </div>
+          <div class="info__item">
+            <dt><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>Horario</dt>
+            <dd data-field="hours"><span class="placeholder">Lunes a domingo, 8:00 – 20:00</span> <span class="tag">Ejemplo</span></dd>
+          </div>
+          <div class="info__item">
+            <dt><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Teléfono</dt>
+            <dd data-field="phone"><span class="placeholder">+34 600 000 000</span> <span class="tag">Ejemplo</span></dd>
+          </div>
+          <div class="info__item">
+            <dt><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>Correo</dt>
+            <dd data-field="email"><span class="placeholder">hola@casamiga.example</span> <span class="tag">Ejemplo</span></dd>
+          </div>
+          <div class="info__item">
+            <dt><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg>Instagram</dt>
+            <dd data-field="instagram"><span class="placeholder">@casamiga</span> <span class="tag">Ejemplo</span></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <!-- 08 · Footer -->
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <div class="site-footer__brand">
+        <a class="brand brand--light" href="#inicio" aria-label="CASA MIGA, volver al inicio">
+          <svg class="brand__mark" aria-hidden="true"><use href="#i-sprig"/></svg>
+          <span class="brand__word">Casa Miga</span>
+        </a>
+        <p class="site-footer__line">El placer de ir más despacio.</p>
+      </div>
+      <nav class="site-footer__nav" aria-label="Pie de página">
+        <ul>
+          <li><a href="#carta">La carta</a></li>
+          <li><a href="#nuestra-casa">Nuestra casa</a></li>
+          <li><a href="#ritual">El ritual</a></li>
+          <li><a href="#visitanos">Visítanos</a></li>
+        </ul>
+      </nav>
+      <div class="site-footer__meta">
+        <p class="site-footer__social" data-field="instagram-footer"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg><span class="placeholder">@casamiga</span> <span class="tag tag--dark">Ejemplo</span></p>
+        <ul class="site-footer__legal">
+          <li><a href="aviso-legal.html">Aviso legal</a></li>
+          <li><a href="privacidad.html">Política de privacidad</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container site-footer__base">
+      <p>© 2026 CASA MIGA</p>
+      <p>Prototipo de diseño · Fotografías ilustrativas y datos de ejemplo</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/vendor/gsap.min.js" defer></script>
+  <script src="assets/js/vendor/ScrollTrigger.min.js" defer></script>
+  <script src="assets/js/steam.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

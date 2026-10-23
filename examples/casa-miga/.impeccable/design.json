@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-23T05:01:27+00:00",
+  "title": "Design System: CASA MIGA",
+  "extensions": {
+    "colorMeta": {
+      "crema": {
+        "role": "neutral",
+        "displayName": "Crema limewash",
+        "canonical": "#F5F0E7",
+        "tonalRamp": [
+          "#14110B",
+          "#2F2B24",
+          "#4B4740",
+          "#6A655E",
+          "#8A867D",
+          "#ACA79F",
+          "#CFCAC1",
+          "#F3EEE5"
+        ]
+      },
+      "blanco-calido": {
+        "role": "neutral",
+        "displayName": "Blanco cálido",
+        "canonical": "#FBF9F4",
+        "tonalRamp": [
+          "#13110E",
+          "#2D2B27",
+          "#494843",
+          "#686662",
+          "#888681",
+          "#A9A7A3",
+          "#CCCAC5",
+          "#F0EEE9"
+        ]
+      },
+      "terracota": {
+        "role": "primary",
+        "displayName": "Terracota",
+        "canonical": "#C77857",
+        "tonalRamp": [
+          "#2A0100",
+          "#4D1700",
+          "#733112",
+          "#994E2E",
+          "#BD6F4E",
+          "#DC9375",
+          "#FBB99E",
+          "#FFE0C8"
+        ]
+      },
+      "terracota-profunda": {
+        "role": "primary",
+        "displayName": "Terracota profunda",
+        "canonical": "#A4552F",
+        "tonalRamp": [
+          "#2A0100",
+          "#4D1800",
+          "#73320F",
+          "#9B4D27",
+          "#BD6F4B",
+          "#DC9473",
+          "#FAB99D",
+          "#FFE0C7"
+        ]
+      },
+      "terracota-noche": {
+        "role": "primary",
+        "displayName": "Terracota noche",
+        "canonical": "#8C4524",
+        "tonalRamp": [
+          "#2A0100",
+          "#4D1800",
+          "#733211",
+          "#984F2F",
+          "#BB704F",
+          "#DC9374",
+          "#FBB99D",
+          "#FFE0C8"
+        ]
+      },
+      "oliva": {
+        "role": "secondary",
+        "displayName": "Verde oliva",
+        "canonical": "#687454",
+        "tonalRamp": [
+          "#0D1500",
+          "#263012",
+          "#424C2E",
+          "#606B4C",
+          "#7F8C6B",
+          "#A0AE8B",
+          "#C3D1AD",
+          "#E7F5D1"
+        ]
+      },
+      "oliva-tinta": {
+        "role": "secondary",
+        "displayName": "Oliva tinta",
+        "canonical": "#4F5A3D",
+        "tonalRamp": [
+          "#0D1500",
+          "#262F14",
+          "#424C30",
+          "#606B4D",
+          "#7F8C6D",
+          "#A1AD8D",
+          "#C3D0AF",
+          "#E7F5D3"
+        ]
+      },
+      "marron-cafe": {
+        "role": "neutral",
+        "displayName": "Marrón café",
+        "canonical": "#49352B",
+        "tonalRamp": [
+          "#1D0D05",
+          "#39261D",
+          "#574238",
+          "#776156",
+          "#988175",
+          "#BAA296",
+          "#DEC5B8",
+          "#FFE8DC"
+        ]
+      },
+      "marron-suave": {
+        "role": "neutral",
+        "displayName": "Marrón suave",
+        "canonical": "#6E5A4E",
+        "tonalRamp": [
+          "#1D0D04",
+          "#38271C",
+          "#564338",
+          "#766155",
+          "#978174",
+          "#B9A395",
+          "#DCC5B8",
+          "#FFE9DB"
+        ]
+      },
+      "cafe-oscuro": {
+        "role": "neutral",
+        "displayName": "Café oscuro",
+        "canonical": "#30241E",
+        "tonalRamp": [
+          "#190F09",
+          "#342822",
+          "#52443E",
+          "#71635C",
+          "#92837B",
+          "#B4A49C",
+          "#D7C7BF",
+          "#FBEBE2"
+        ]
+      },
+      "arena": {
+        "role": "neutral",
+        "displayName": "Arena",
+        "canonical": "#DED2C0",
+        "tonalRamp": [
+          "#181004",
+          "#332A1B",
+          "#504637",
+          "#6F6455",
+          "#908474",
+          "#B1A695",
+          "#D5C9B7",
+          "#F9EDDA"
+        ]
+      },
+      "arena-tinta": {
+        "role": "neutral",
+        "displayName": "Arena tinta",
+        "canonical": "#C9B9A3",
+        "tonalRamp": [
+          "#1A0F01",
+          "#352917",
+          "#534532",
+          "#726450",
+          "#93846F",
+          "#B5A590",
+          "#D8C8B2",
+          "#FDECD5"
+        ]
+      },
+      "crema-sobre-oscuro": {
+        "role": "neutral",
+        "displayName": "Crema sobre oscuro",
+        "canonical": "#CBBBA8",
+        "tonalRamp": [
+          "#1A0F02",
+          "#352919",
+          "#534535",
+          "#726352",
+          "#928372",
+          "#B5A592",
+          "#D8C8B4",
+          "#FCECD8"
+        ]
+      },
+      "tag-lino": {
+        "role": "neutral",
+        "displayName": "Lino",
+        "canonical": "#E6E3D3",
+        "tonalRamp": [
+          "#141207",
+          "#2E2C1F",
+          "#4B483B",
+          "#696658",
+          "#898778",
+          "#ABA899",
+          "#CECBBB",
+          "#F2EFDF"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only; uppercase, roman line then italic line."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headlines in capitals, broken by meaning."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "The hero supporting sentence."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Dish and product names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Paragraphs and descriptions, max 34rem."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Navigation, buttons, tabs, field labels; uppercase, tracked."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "UI state changes, button icons, header, menu links."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(0.77, 0, 0.175, 1)",
+        "purpose": "On-screen movement: tab indicator clip, line drawing."
+      },
+      {
+        "name": "ease-drawer",
+        "value": "cubic-bezier(0.32, 0.72, 0, 1)",
+        "purpose": "Mobile menu curtain."
+      },
+      {
+        "name": "ease-reveal",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Headline line reveals and image wipes."
+      },
+      {
+        "name": "reveal-lines",
+        "value": "1.05s, 90ms stagger per line",
+        "purpose": "Section headlines rising from their own line mask."
+      },
+      {
+        "name": "reveal-image",
+        "value": "clip-path 1.25s + scale 1.12→1 over 1.7s",
+        "purpose": "Photographs wiping up into their frames."
+      },
+      {
+        "name": "hero-intro",
+        "value": "about 1.6s total, staged from 0.05s to 1.05s",
+        "purpose": "Logo, nav, headline mask, photo settle, lead, actions, seal, cue."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "≤760px"
+      },
+      {
+        "name": "tablet",
+        "value": "761px"
+      },
+      {
+        "name": "desktop-nav",
+        "value": "1024px"
+      },
+      {
+        "name": "wide-menu",
+        "value": "1200px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one action per view: Descubrir la carta, Ven a vernos, Cómo llegar.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Descubrir la carta <svg viewBox=\"0 0 20 20\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 10h12.5M11.5 5.5 16 10l-4.5 4.5\"/></svg></a>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:.65rem;min-height:3rem;padding:0 1.6rem;border-radius:999px;background:#A4552F;color:#FBF9F4;font:600 .75rem/1 Manrope,system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;transition:background-color .25s ease,transform .16s cubic-bezier(.23,1,.32,1)}.ds-btn-primary svg{transition:transform .3s cubic-bezier(.23,1,.32,1)}.ds-btn-primary:hover{background:#8C4524}.ds-btn-primary:hover svg{transform:translateX(3px)}.ds-btn-primary:active{transform:scale(.97)}.ds-btn-primary:focus-visible{outline:2px solid #A4552F;outline-offset:3px}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary path beside a primary: Conocer nuestra casa.",
+      "html": "<a class=\"ds-btn-outline\" href=\"#\">Conocer nuestra casa</a>",
+      "css": ".ds-btn-outline{display:inline-flex;align-items:center;min-height:3rem;padding:0 1.6rem;border-radius:999px;border:1px solid rgba(73,53,43,.45);color:#49352B;font:600 .75rem/1 Manrope,system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;transition:background-color .25s ease,color .25s ease,border-color .25s ease}.ds-btn-outline:hover{background:#49352B;border-color:#49352B;color:#F5F0E7}.ds-btn-outline:focus-visible{outline:2px solid #A4552F;outline-offset:3px}"
+    },
+    {
+      "name": "Category Tabs",
+      "kind": "nav",
+      "refersTo": "tab-selected",
+      "description": "Carta categories; the selected pill is a clipped copy of the row.",
+      "html": "<div class=\"ds-tabs\"><div class=\"ds-tabs-row\"><button>Café</button><button>Panadería</button><button>Dulces</button></div><div class=\"ds-tabs-row ds-tabs-on\" aria-hidden=\"true\"><span>Café</span><span>Panadería</span><span>Dulces</span></div></div>",
+      "css": ".ds-tabs{position:relative;width:max-content}.ds-tabs-row{display:flex;gap:.25rem}.ds-tabs-row>*{display:inline-flex;align-items:center;min-height:2.75rem;padding:0 1rem;border:0;border-radius:999px;background:none;font:600 .7rem/1 Manrope,system-ui,sans-serif;letter-spacing:.15em;text-transform:uppercase;color:#6E5A4E;cursor:pointer}.ds-tabs-row>button:hover{color:#49352B}.ds-tabs-on{position:absolute;inset:0;background:#A4552F;border-radius:999px;pointer-events:none;clip-path:inset(0 70% 0 0 round 999px);transition:clip-path .4s cubic-bezier(.77,0,.175,1)}.ds-tabs-on>*{color:#FBF9F4}.ds-tabs:has(button:nth-child(2):hover) .ds-tabs-on{clip-path:inset(0 37% 0 23% round 999px)}"
+    },
+    {
+      "name": "Placeholder Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Marks every unconfirmed fact until real data replaces it.",
+      "html": "<span class=\"ds-tag\">Ejemplo</span>",
+      "css": ".ds-tag{display:inline-block;padding:.38em .65em .32em;border-radius:999px;background:#E6E3D3;color:#4F5A3D;font:700 .625rem/1 Manrope,system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase}"
+    },
+    {
+      "name": "Dish Row",
+      "kind": "custom",
+      "description": "A carta line: Garamond name, dotted leader, tabular price, description.",
+      "html": "<div class=\"ds-dish\"><p class=\"ds-dish-row\"><span class=\"ds-dish-name\">Cappuccino</span><span class=\"ds-dish-leader\"></span><span class=\"ds-dish-price\">3,20 €</span></p><p class=\"ds-dish-desc\">Espresso, leche y una capa generosa de espuma.</p></div>",
+      "css": ".ds-dish{padding:1.05rem 0 1.1rem;border-bottom:1px solid #DED2C0;max-width:34rem}.ds-dish-row{display:flex;align-items:baseline;gap:.75rem;margin:0}.ds-dish-name{font:600 1.4rem/1.15 \"Cormorant Garamond\",Garamond,serif;color:#49352B}.ds-dish-leader{flex:1;min-width:1.5rem;border-bottom:1px dotted #C9B9A3;transform:translateY(-.3em)}.ds-dish-price{font:600 .95rem Manrope,system-ui,sans-serif;font-variant-numeric:tabular-nums;color:#49352B}.ds-dish-desc{margin:.2rem 0 0;font:400 .875rem/1.5 Manrope,system-ui,sans-serif;color:#6E5A4E}"
+    },
+    {
+      "name": "Navigation Link",
+      "kind": "nav",
+      "description": "Header link; underline draws from the left on hover and for the active section.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" aria-current=\"location\">La carta</a><a href=\"#\">Nuestra casa</a><a href=\"#\">El ritual</a></nav>",
+      "css": ".ds-nav{display:flex;gap:2.25rem}.ds-nav a{position:relative;padding:.6rem 0;font:600 .72rem/1 Manrope,system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#49352B;text-decoration:none}.ds-nav a::after{content:\"\";position:absolute;left:0;right:0;bottom:.3rem;height:1px;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .4s cubic-bezier(.23,1,.32,1)}.ds-nav a:hover::after,.ds-nav a[aria-current]::after{transform:scaleX(1);transform-origin:left}.ds-nav a:focus-visible{outline:2px solid #A4552F;outline-offset:3px}"
+    },
+    {
+      "name": "Headline",
+      "kind": "custom",
+      "description": "Section headline in Garamond capitals with the italic second voice.",
+      "html": "<h2 class=\"ds-headline\">Un momento<br><em>solo para ti.</em></h2>",
+      "css": ".ds-headline{margin:0;font:400 clamp(2.3rem,1.55rem + 2.6vw,3.75rem)/1 \"Cormorant Garamond\",Garamond,serif;letter-spacing:-.01em;text-transform:uppercase;color:#49352B}.ds-headline em{font-style:italic}"
+    }
+  ],
+  "narrative": {
+    "northStar": "La mesa junto a la ventana",
+    "overview": "One table by one window, at nine in the morning. Every surface of the site is either that light (crema limewash, linen white, side-lit photography) or the shade behind it (café oscuro), and the page keeps returning to the same ceramic cup as you scroll: poured, filled, steaming. The system is warm and quiet on purpose; its energy comes from photography, scale contrast in the type, and one choreographed scroll scene, never from colour noise or decoration.\n\nTypography carries the editorial voice. A light, high-contrast Garamond set in capitals speaks the headlines with an italic second voice for the emotional turn of a phrase; a plain geometric sans does every practical job (prices, labels, buttons, hours). Terracotta is touched, not painted: it marks where a hand acts. Olive appears only as drawn botanical line.\n\nThe palette, the two families and the light, warm character are client commitments from the brief, not house defaults.",
+    "keyCharacteristics": [
+      "Light crema ground for most of the page, one café oscuro chapter (the ritual) and a café oscuro footer.",
+      "Capitals in Cormorant Garamond for every headline, italic for the turn of a phrase.",
+      "Manrope in tracked capitals for nav, buttons, tabs and field labels; sentence case for body.",
+      "Photography carries texture and appetite; nothing imitates material in CSS.",
+      "Hairline rules in arena instead of boxes and cards.",
+      "Motion is slow, eased out and authored once per scene."
+    ],
+    "rules": [
+      {
+        "name": "The Touch Rule",
+        "body": "Terracotta marks what a hand does: the primary button, the selected tab, the seal, the note. It never fills a section or decorates a heading.",
+        "section": "colors"
+      },
+      {
+        "name": "The No Black Rule",
+        "body": "The darkest value in the system is café oscuro (#30241E). Shadows, overlays and veils are tinted from it.",
+        "section": "colors"
+      },
+      {
+        "name": "The Capitals Speak Rule",
+        "body": "Headlines are set in Garamond capitals and never carry an eyebrow or kicker above them; the headline introduces itself.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Price Rule",
+        "body": "Prices use Manrope with tabular lining figures and the Spanish format 2,20 €, aligned right after a dotted leader.",
+        "section": "typography"
+      },
+      {
+        "name": "The Light Not Shadow Rule",
+        "body": "Separation is made with ground changes and hairlines; when an image needs legible text over it, it gets a veil of the ground colour, never a drop shadow on the text (the hero scroll cue on phone is the one soft text glow, over photography).",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep at least 65% of every page on crema or blanco cálido.",
+      "Do set every headline in Cormorant Garamond capitals and let the italic carry the emotional half of a phrase.",
+      "Do use terracota profunda for any terracotta that carries text, and the brand terracota on dark grounds.",
+      "Do mark every unverified fact (price, hours, address, phone, account) with the \"Ejemplo\" tag until it is real.",
+      "Do let photography carry texture; place it in 4px frames or full bleed.",
+      "Do author motion once per scene with the shared curves (cubic-bezier(0.16, 1, 0.3, 1) for reveals, cubic-bezier(0.23, 1, 0.32, 1) for UI), and give every scene a still version under reduced motion."
+    ],
+    "donts": [
+      "Don't use pure black, neon, blue or purple gradients (client brief).",
+      "Don't add a kicker or eyebrow above a headline, or section numbers outside a real sequence like the ritual's four steps.",
+      "Don't build product grids of identical cards; the carta is a set list with hairlines.",
+      "Don't imitate ceramic, flour, wood or steam in CSS; use photography or the WebGL steam.",
+      "Don't add drop shadows to content or glass blur as decoration.",
+      "Don't create links or buttons that look functional before their destination exists."
+    ]
+  }
+}
