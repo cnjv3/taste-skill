@@ -16,10 +16,22 @@ npx serve .
 
 y abre `http://localhost:8000`. Abrir `index.html` con doble clic también funciona, pero un servidor reproduce mejor la carga real (fuentes, imágenes diferidas).
 
+## Archivo único
+
+`dist/casa-miga.html` es la web entera en un solo archivo (unos 1,5 MB): estilos, fuentes, scripts e imágenes van incrustados, así que se abre con doble clic, sin servidor y sin conexión. Se regenera con:
+
+```bash
+python3 build_single.py
+```
+
+Diferencias con la versión de carpeta: cada imagen va en una sola resolución (la mayor) en lugar de varias según la pantalla; no lleva `og:image`, porque las redes sociales necesitan una URL pública; y el aviso legal y la política de privacidad se abren como paneles dentro de la misma página. Para publicar en un servidor, mejor la versión de carpeta, que carga menos en móvil.
+
 ## Estructura
 
 ```
 index.html               página principal (8 secciones)
+build_single.py          genera dist/casa-miga.html, la web en un solo archivo
+dist/casa-miga.html      la web en un solo archivo
 aviso-legal.html         plantilla de aviso legal (pendiente de completar)
 privacidad.html          plantilla de política de privacidad (pendiente de completar)
 favicon.svg

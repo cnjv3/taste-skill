@@ -400,9 +400,11 @@
   initReveals();
   initTabs();
 
+  // Mismo criterio que los <source> de <picture>: por debajo de 761px se sirve el recorte cuadrado
+  var phoneCrop = window.matchMedia('(max-width: 760px)');
   var heroImg = $('.hero__img');
   var heroSteam = makeSteam($('[data-steam="hero"]'), heroImg, function () {
-    return /hero-mobile/.test(heroImg.currentSrc) ? STEAM_HERO_MOBILE : STEAM_HERO;
+    return phoneCrop.matches ? STEAM_HERO_MOBILE : STEAM_HERO;
   }, { amount: 0.55, seed: 3.7 });
   if (heroSteam) {
     heroSteam.setAmount(0.55);
@@ -411,7 +413,7 @@
 
   var cupImg = $('[data-layer="cup"] img');
   var ritualSteam = makeSteam($('[data-steam="ritual"]'), cupImg, function () {
-    return /hero-mobile/.test(cupImg.currentSrc) ? STEAM_HERO_MOBILE : STEAM_CUP;
+    return phoneCrop.matches ? STEAM_HERO_MOBILE : STEAM_CUP;
   }, { amount: 0, seed: 11.2 });
 
   initScenes(ritualSteam);
